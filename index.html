@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/styles/style.css">
+  <title>PCEnergyCost</title>
+</head>
+<body>
+  <header>
+    <h1>PC<strong>Energy</strong>Cost</h1>
+    <div id="links">
+      <p>Desenvolvido por Igor de Oliveira</p>
+      <a href="https://github.com/igordeoliveira95" target="_blank" title="My GitHub">
+        <img src="./assets/images/1964417_github_logo_media_social_icon.svg" alt="github link" id="github-link">
+      </a>
+      <a href="https://www.linkedin.com/in/igordeoliveira1/" target="_blank" title="My LinkedIn">
+        <img src="./assets/images/5279114_linkedin_network_social network_linkedin logo_icon.svg" alt="linkedin link" id="linkedin-link">
+      </a>
+    </div>   
+  </header>
+
+  <main class="container">
+    <div class="infos">
+      <p>Primeiro use <a href="https://outervision.com/power-supply-calculator" id="site" target="_blank">este site</a> para calcular o consumo do seu computador. Pode usar a aba "basic".</p>
+      <br>
+      <p>Agora, insira o consumo e o kWh da sua região:</p>
+    </div>
+
+      <form class="form-inputs">
+        <label class="input-labels">Watts:</label>
+        <input type="number" id="input-watts" class="input-values">
+        <label class="input-labels">kWh:</label>
+        <input type="number" id="input-kwh" class="input-values">
+        <label class="input-labels">Horas de uso:</label>
+        <input type="number" id="input-hours" class="input-values">
+        <button id="calculate-button">Calcular</button>
+      </form>
+      <div id="result"></div>
+  </main>
+  <script src="./assets/app/app.js"></script>
+</body>
+</html> 
