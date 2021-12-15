@@ -1,2 +1,1 @@
-# pc-energy-cost
-Calcula a média de gasto por mês do computador.
+Simple energy cost calculator made with Javascript, HTML and CSS.
